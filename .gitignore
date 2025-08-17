@@ -1,0 +1,11 @@
+# Ignore database and binary files
+*.bin
+*.sqlite3
+
+# Ignore local development files
+__pycache__/
+.env
+
+# Ignore vector database folders if needed
+db/
+chroma_db/
